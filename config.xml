@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>LSWebhook</name>
+        <type>plugin</type>
+        <creationDate>2021-05-30</creationDate>
+        <lastUpdate>2021-05-30</lastUpdate>
+        <author>sanshirookazaki</author>
+        <authorUrl>https://github.com/sanshirookazaki</authorUrl>
+        <license>MIT</license>
+        <version>1.0.0</version>
+        <description><![CDATA[LSWebhook plugin]]></description>
+    </metadata>
+    <compatibility>
+        <version>4.0</version>
+        <version>3.0</version>
+    </compatibility>
+</config>
+
