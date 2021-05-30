@@ -30,13 +30,13 @@ class LSWebhook extends PluginBase
      */
     public function init()
     {
-        $this->subscribe('newSurveySettings');
+        $this->subscribe('afterSurveyActivate');
     }
 
     /**
      * @return void
      */
-    public function newSurveySettings()
+    public function afterSurveyActivate()
     {
         exec('touch /tmp/test');
     }
